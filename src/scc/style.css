@@ -1,0 +1,215 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+
+body{background-size: cover;
+background-repeat: no-repeat;
+
+  }
+
+  header{
+    justify-content: space-between;
+  }
+.navbar{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+ 
+}
+
+.nav-link{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-link a{
+  margin-right: 20px;
+}
+a{
+  display: flex;
+  text-decoration: none;
+  color:white;
+  transition: 0.3s;
+}
+
+
+.startboot{
+  margin-left: 100px;
+  cursor:pointer;
+  margin-top: 2px;
+  transition: 0.3s;
+color: white;}
+
+a:hover{color: rgb(197, 207, 207)
+  ;}
+
+
+
+
+
+
+
+
+.container{text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10rem;
+  padding: 30px;
+  font-size: 28px;  
+  color: white;}
+  .one{
+    margin-left: 600px;
+    margin-bottom: 25px;
+    border: none;
+    align-items: center;
+    height: 2px;
+    background: #F4623A;
+    width: 40px;}
+    
+
+ 
+
+
+
+.container1{text-align:center;
+color: white;
+margin-bottom: 10px;}
+
+.submit{padding: 1.25rem 2.25rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 10rem;
+  cursor: pointer;
+background-color: #F4623A;
+color: white;
+margin-top: 20px;}
+  
+.submit:hover{
+  background-color: #ee4415;
+}
+body {
+  background-image: url("https://startbootstrap.github.io/startbootstrap-creative/assets/img/bg-masthead.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-attachment: fixed;
+ 
+}
+.section{
+  background-color: #f4623a;
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem; 
+  color: white;
+  height: 400px;
+  margin-top: 70px;
+}
+
+.favorite{
+ margin-top: 50px;
+ text-align: center;
+
+}
+
+.two{
+  margin-left: 630px; 
+  margin-top: 20px;
+  border: none;
+  text-align: center;
+  height: 2px;
+  background:white;
+  width: 40px;
+}
+.bootstrap{
+  margin-top: 20px;
+  flex-direction: column;
+  bottom: 350px;
+  padding: 30px;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.touch{font-size: 0.85rem;
+  width: 150px;
+  height: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: auto;
+  border: none;
+  border-radius: 10rem;
+  cursor: pointer;
+background-color: white;
+color: black;
+margin-top: 20px;}
+
+.touch:hover{background-color: #adb5bd;}
+
+.container2{
+  background-color: #212529;
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem; 
+  color: white;
+  height: 400px;
+  
+}
+
+.down{
+  margin-top: 125px;
+}
+.container3{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem; 
+  color: black;
+  height: 700px;
+padding: 15px;}
+
+  .last{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .ready{text-align: center;
+  font-size: large;
+  margin-bottom: 30px;
+  padding: auto;
+  color:#848688
+}
+.rgstr{width: 40%;
+  margin-top: 30px;
+margin-bottom:-20px;
+height: 45px;
+border-radius: 5px ;
+border-color: solid #dc3545;
+cursor: pointer;
+
+}
+.Message{
+  width: 40%;
+  margin-top: 40px;
+  height: 150px;
+  border-radius: 5px;
+  border-inline-start-color: #dc3545;
+  cursor: pointer;}
+
+.submit1{
+  width:40%;
+  background-color: #f4623a;
+  color: white;
+  text-align: center;
+  margin-left: 385px;
+  height: 50px;
+  margin-top: 40px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+
